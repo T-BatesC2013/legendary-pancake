@@ -39,7 +39,7 @@ class Student:
         print(f'Gladness = {self.gladness}')
         print(f'Progress = {round(self.progress,2)}')
 
-    def live(self,day):
+    def live(self, day):
         day = "Day" + str(day) + "of" + self.name + "life"
         print(f'{day:=^50}')
         print('1 - to study')
